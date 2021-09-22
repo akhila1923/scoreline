@@ -1,0 +1,387 @@
+@import "utilities";
+@import "media";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $secondary-color;
+}
+.meeran
+    {
+        margin: 0 auto;
+        width: 20%;
+        
+        padding: 2rem;
+    }
+#main_menu
+{
+    width: 100%;
+    position: relative;
+    background-color: $white;
+    position: fixed;
+    height: 130px;
+
+    
+
+    .logo-area
+    {
+        width: 250px;
+        
+        position: absolute;
+        left: 50%;
+        top: 0;
+        content: "";
+        margin-left: -125px;
+        text-align: center;
+    }
+    .inner_main_menu
+    {
+        margin: 0 auto;
+        
+
+        ul
+        {
+            list-style: none;
+            text-align: right;
+            padding: 2rem 18rem;
+
+            li
+            {
+                float: none;
+                display: inline-block;
+
+                a
+                {
+                    color: $primary-color;
+                    font-size: $nav-font;
+                    text-decoration: none;
+                    display: block;
+                    padding: 1rem 1rem;
+                }
+                a:hover
+                {
+                    color: $secondary-color;
+                }
+            }
+            li:nth-child(1)
+            {
+                float: left;
+                padding-left: 5rem;
+            }
+            li:nth-child(2)
+            {
+                float: left;
+                padding-left: 1rem;
+            }
+            
+        }
+    }
+}
+.offcanvas-header
+{
+    display: grid !important;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+}
+.banner
+{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .banner-hd
+    {
+        width: 620px;
+        margin: 0 auto;
+        padding: 25rem 1rem ;
+        
+        h1
+        {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: $hd-size;
+            font-family: 'Montserrat', sans-serif;
+            color: $white;
+            font-size: $hd-font;
+        }
+    }
+}
+.whoweare
+{
+    .greenbox
+    {
+        width: 1170px;
+        background-color: $tertiary-color;
+        margin: -13rem auto;
+
+        h2
+        {
+            text-align: center;
+            color: $white;
+        }
+
+        h1
+        {
+            color: $white;
+            text-align: center;
+            
+        }
+        p
+        {
+            
+            color: $white;
+            text-align: justify;
+        }
+    }
+}
+.sec
+{
+    padding: 18rem 6rem 1rem;
+}
+.section2
+{
+    h1,h2{
+        color: $tertiary-color;
+    }
+    li,p{
+        color: $white;
+    }
+    .row
+    {
+        padding: 3rem 0;
+    }
+}
+h1{
+    font-size: $hd-font;
+    font-weight: $hd-size;
+    padding-bottom: 2rem;
+}
+p, li, a
+{
+    font-size: $nav-font;
+    padding: 1rem;
+}
+h2{
+    font-size: $sub-hd;
+    font-weight: $hd-size;
+}
+.section3
+{
+    background: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem;
+
+    h1
+    {
+        color: $white;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    .program-box
+    {
+        background-color: $white;
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 140px;
+        margin: 0 auto;
+    }
+    h2
+    {
+        text-align: center;
+        padding: 3rem 0;
+        color: $white;
+    }    
+    .row-pd
+    {
+        padding-bottom: 6rem;
+    }
+}
+.documents
+{
+    background: url(../images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+
+    h1
+    {
+        text-align: center;
+        padding: 3rem 0;
+        color: $white;
+    }
+    a
+    {
+        color: $white;
+    }
+    ol
+    {
+        padding-bottom: 3rem;
+        color: $white;
+    }
+}
+.contact
+{
+    background-color: $tertiary-color;
+    padding: 3rem 0;
+
+    h1
+    {
+        text-align: center;
+        color: $white;
+        
+    }
+    p
+    {
+        color: $white;
+    }
+    h6
+    {
+        color: $white;
+        font-size: $nav-font;
+        font-weight: $hd-size;
+    }
+    a
+    {
+        text-decoration: underline;
+        color: $white;
+    }
+    .form-box
+    {
+        background-color: $white;
+        padding: 3rem 8rem;
+        width: 700px;
+        margin: 0 auto;
+        box-shadow: 10px 10px #434343;
+
+        .contact-form {
+            max-width: 100%;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+
+            .form-group {
+                margin-bottom: 1.5rem;
+
+                .form-control {
+                    border: none;
+                    border-bottom: 1px solid #797979;
+                    padding: 10px 0;
+                    background: transparent;
+                    font-weight: normal;
+                    border-radius: 0;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                    height: 32px;
+                    color: #797979;
+                    font-size: 14px;
+                    position: relative;
+                    font-family: 'Roboto',sans-serif;
+                    -webkit-transition: border .9s ease;
+                    -o-transition: border .9s ease;
+                    transition: border .9s ease;
+                }
+            }
+            textarea {
+                min-height: 130px;
+                resize: none;
+            }
+        }
+    }
+}
+.btn
+{
+    background-color: $secondary-color;
+    color: $white;
+    
+    float: left;
+}
+.btn-div
+{
+    padding: 0 0 3rem;
+}
+footer
+{
+    background-color: $primary-color;
+    padding: 2rem 0 1rem;
+
+    img
+    {
+        float: right;
+        margin: 0 2rem;
+    }
+    p
+    {
+        color: #797979;
+    }
+}
+.instagram
+{
+    background-color: $tertiary-color;
+    padding: 3rem 0;
+    margin: 5rem 0;
+
+    h1
+    {
+        text-align: center;
+        color: $white;
+        float: left;
+        margin-top: 4rem;
+
+        p
+        {
+            float: left;
+        }
+    }
+    
+    .instadiv
+    {
+        float: right;
+    }
+    .insta
+    {
+        width: 100px;
+        float: left;
+    }
+    img
+    {
+        width: 253px;
+        padding: 2rem 0;
+        vertical-align: text-top;
+    }
+    .p1
+    {
+        
+        p
+        {
+            font-size: 6rem;
+            font-weight: $hd-size;
+            color: $white;
+            margin: -2rem 0;
+        }
+    }
+    .p2
+    {
+        p
+        {
+            font-size: 10rem;
+            font-weight: $hd-size;
+            color: $white;
+            margin: -4rem 0;
+        }
+    }
+}

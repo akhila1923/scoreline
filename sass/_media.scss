@@ -1,0 +1,369 @@
+@import "utilities";
+
+@media only screen and (min-width: 1500px)
+{
+    .inner_main_menu
+    {
+        ul 
+        {
+            padding: 1rem 18rem !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 1180px)
+{
+    nav
+    {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1180px)
+{
+    nav
+    {
+        display: none !important;
+    }
+    .whoweare 
+    {
+        .greenbox {
+            width: 965px !important;
+            
+        }
+    }
+    #main_menu {
+        
+        height: 110px !important;
+
+        .inner_main_menu
+        {
+             ul
+             {
+                padding: 3rem 14rem !important;
+
+                li 
+                {
+                    a 
+                    {
+                        padding: 1rem 2rem !important;
+                    }
+                }
+             }
+        }
+    }
+    .instagram
+    {
+        img 
+        {
+            width: 285px !important;
+        }
+        .instadiv
+        {
+            img {
+            width: 80px !important;
+            }
+        }
+    }
+    iframe
+    {
+        width: 460px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px)
+{
+    #main_menu
+    {
+        display: none !important;
+    }
+    .logo-a
+    {
+        width: 680px;
+
+        .logo
+        {
+            width: 30%;
+        }
+    }
+    nav
+    {
+        button
+        {
+            margin-right: 3rem;
+            background-color: $tertiary-color !important;
+        }
+    }
+    .navbar-toggler-icon
+    {
+        width: 3.5em !important;
+        height: 3.5em !important;
+    }
+    .greenbox {
+        width: 725px !important;
+    }
+    .instagram
+    {
+        img
+        {
+            width: 215px !important;
+        }
+        .instadiv
+        {
+            img
+            {
+                width: 70px !important;
+            }
+        }
+    }
+    iframe
+    {
+        width: 355px;
+        height: 185px;
+    }
+    .form-box
+    {
+        width: 520px !important;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+    #main_menu
+    {
+        display: none !important;
+    }
+    .logo-a
+    {
+        width: 370px;
+        margin-left: 3rem;
+
+        .logo
+        {
+            width: 35% !important;
+        }
+    }
+    nav
+    {
+        button
+        {
+            margin-right: 6rem;
+            background-color: $tertiary-color !important;
+        }
+    }
+    .navbar-toggler-icon
+    {
+        width: 3.5em !important;
+        height: 3.5em !important;
+    }
+    .banner-hd {
+        width: 280px !important;
+    }
+    .greenbox {
+        width: 450px !important;
+    }
+    
+    h1, h2 {
+        font-size: 5rem !important;
+    }
+    p, li, a, h6, button
+    {
+        font-size: 2.5rem !important;
+    }
+    
+    .instagram
+    {
+        h1, p
+        {
+            float: none !important;
+        }
+        img {
+            width: 470px !important;
+        }
+        .instadiv, .insta {
+            float: none !important;
+            text-align: center !important;
+            
+        }
+        .insta
+        {
+            width: 60px !important;
+        }
+        
+    }
+    .documents
+    {
+        padding: 0 6rem;
+    }
+    .contact
+    {
+        padding: 3rem 6rem !important;
+    }
+    .col-12-2
+    {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+    .col-12-3
+    {
+        flex: 0 0 auto;
+        width: 67%;
+        margin-top: -2rem;
+    }
+    .col-12
+    {
+        padding-bottom: 5rem !important;
+    }
+    iframe, .form-box
+    {
+        width: 417px !important;
+    }
+    .btn-div {
+        padding: 0 0 8rem !important;
+    }
+    footer
+    {
+        p
+        {
+            display: grid;
+            place-items: center;
+        }
+        .social
+        {
+            text-align: center;
+        }
+        img
+        {
+            float: none !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    #main_menu
+    {
+        display: none !important;
+    }
+    .logo-a
+    {
+        width: 255px;
+        margin-left: 3rem;
+
+        .logo
+        {
+            width: 50% !important;
+        }
+    }
+    nav
+    {
+        button
+        {
+            margin-right: 6rem;
+            background-color: $tertiary-color !important;
+        }
+    }
+    .navbar-toggler-icon
+    {
+        width: 4.5em !important;
+        height: 4.5em !important;
+    }
+    .greenbox {
+        width: 350px !important;
+        padding: 6rem !important;
+    }
+    .program-box
+    {
+        padding: 5rem !important;
+    }
+    .banner-hd {
+        width: 401px !important;
+    }
+    h1
+    {
+        font-size: 6rem !important;
+    }
+    h2
+    {
+        font-size: 5rem !important;
+    }
+    p, li, a, h6, button {
+        font-size: 4rem !important;
+    }
+    .instagram
+    {
+        padding: 4rem !important;
+
+        h1, p
+        {
+            float: none !important;
+        }
+        img {
+            width: 345px !important;
+        }
+        .instadiv, .insta {
+            float: none !important;
+            text-align: center !important;
+            
+        }
+        .insta
+        {
+            width: 60px !important;
+        }
+        
+    }
+    .documents
+    {
+        padding: 0 8rem;
+    }
+    .contact
+    {
+        padding: 8rem 6rem !important;
+
+        p
+        {
+            text-align: justify;
+        }
+    }
+    .col-12-2
+    {
+        width: 50%;
+        margin: 0 auto 5rem;
+    }
+    
+    .col-12
+    {
+        padding-bottom: 5rem !important;
+    }
+    iframe, .form-box
+    {
+        width: 340px !important;
+    }
+    .btn-div {
+        padding: 0 0 12rem !important;
+    }
+    .btn
+    {
+        padding: 2rem !important;
+    }
+    footer
+    {
+        padding: 5rem 0 1rem !important;
+
+        p
+        {
+            display: grid;
+            place-items: center;
+            font-size: 3.5rem !important;
+        }
+        .social
+        {
+            text-align: center;
+        }
+        img
+        {
+            float: none !important;
+            width: 7%;
+        }
+    }
+}
