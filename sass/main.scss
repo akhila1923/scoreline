@@ -245,7 +245,7 @@ h2{
         color: $white;
         
     }
-    p
+    h2, p
     {
         color: $white;
     }
@@ -319,6 +319,10 @@ footer
     background-color: $primary-color;
     padding: 2rem 0 1rem;
 
+    .social
+    {
+        padding-top: .5rem;
+    }
     img
     {
         float: right;
@@ -350,12 +354,13 @@ footer
     
     .instadiv
     {
-        float: right;
+        display: grid;
+        place-items: center;
     }
     .insta
     {
-        width: 100px;
-        float: left;
+        width: 60px;
+        margin-bottom: -5rem;
     }
     img
     {
