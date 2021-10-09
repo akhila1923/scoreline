@@ -20,13 +20,7 @@ body
     font-family: 'Montserrat', sans-serif;
     background-color: $secondary-color;
 }
-.meeran
-    {
-        margin: 0 auto;
-        width: 20%;
-        
-        padding: 2rem;
-    }
+
 #main_menu
 {
     width: 100%;
@@ -239,6 +233,15 @@ h2{
     background-color: $tertiary-color;
     padding: 3rem 0;
 
+    .meeran 
+    {
+        padding: 20px 160px;
+    }
+    h2
+    {
+        text-align: center;
+        padding: 20px 0;
+    }
     h1
     {
         text-align: center;
@@ -247,6 +250,7 @@ h2{
     }
     h2, p
     {
+        
         color: $white;
     }
     h6
@@ -254,6 +258,7 @@ h2{
         color: $white;
         font-size: $nav-font;
         font-weight: $hd-size;
+        padding: 10px 0;
     }
     a
     {
@@ -264,7 +269,7 @@ h2{
     {
         background-color: $white;
         padding: 3rem 8rem;
-        width: 700px;
+        
         margin: 0 auto;
         box-shadow: 10px 10px #434343;
 

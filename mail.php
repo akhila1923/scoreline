@@ -5,7 +5,7 @@ $lname = $_POST['lname'];
 $email= $_POST['email'];
 $phnno = $_POST['phnno'];
 $message= $_POST['msg'];
-$to = "akhilapr1923@gmail.com";
+$to = "office@scorelinesports.in";
 $subject = "Mail From website";
 $txt ="First Name = ". $fname . "\r\nLast Name = " . $lname . "\r\nEmail = " . $email ."\r\nPhone Number = " . $phnno . "\r\nMessage =" . $message;
 $headers = "From: noreply@yoursite.com" . "\r\n" .
@@ -13,6 +13,10 @@ $headers = "From: noreply@yoursite.com" . "\r\n" .
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
+
 //redirect
 header("Location:thankyou.html");
+
+
+
 ?>

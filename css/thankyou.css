@@ -1,8 +1,27 @@
 body
 {
     text-align: center;
+    background-color: #0C3974;
+}
+.bg-white
+{
+    background-color: #fff;
 }
 h1,a
 {
     text-align: center;
+    color: #fff;
+}
+.logo-area
+{
+    width: 250px;
+    
+}
+.navbar-pad
+{
+    padding: 0 70px;
+}
+.thanku
+{
+    padding: 10rem 0;
 }
