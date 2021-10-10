@@ -1,13 +1,12 @@
 <?php
 //get data from form  
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
-$email= $_POST['email'];
-$phnno = $_POST['phnno'];
-$message= $_POST['msg'];
-$to = "office@scorelinesports.in";
-$subject = "Mail From website";
-$txt ="First Name = ". $fname . "\r\nLast Name = " . $lname . "\r\nEmail = " . $email ."\r\nPhone Number = " . $phnno . "\r\nMessage =" . $message;
+$name = $_POST['name'];
+
+$centre_name = $_POST['centre_name'];
+
+$to = "akhilapr1923@gmail.com";
+$subject = "Mail From Payment Page";
+$txt ="Name = ". $name . "\r\nScoreline Centre Name = " . $centre_name;
 $headers = "From: noreply@yoursite.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){

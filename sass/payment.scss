@@ -1,15 +1,81 @@
-@import "utilities";
-@import "media";
+
+@import "payment-media";
+
+
+#main_menu
+{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    
+    height: 130px;
+
+    
+
+    .logo-area
+    {
+        width: 250px;
+        
+        position: absolute;
+        left: 50%;
+        top: 0;
+        content: "";
+        margin-left: -125px;
+        text-align: center;
+    }
+    .inner_main_menu
+    {
+        margin: 0 auto;
+        
+
+        ul
+        {
+            list-style: none;
+            text-align: right;
+            padding: 2rem 16rem;
+
+            li
+            {
+                float: none;
+                display: inline-block;
+
+                a
+                {
+                    color: #000;
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    display: block;
+                    padding: 1rem 1rem;
+                }
+                a:hover
+                {
+                    color: #0C3974;
+                }
+            }
+            li:nth-child(1)
+            {
+                float: left;
+                padding-left: 0;
+            }
+            li:nth-child(2)
+            {
+                float: left;
+                padding-left: 1rem;
+            }
+            
+        }
+    }
+}
 
 
 .container-contact
 {
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
 }
 .contact
 {
-    background-color: $tertiary-color;
+    background-color: #6DB440;
     padding: 3rem 0;
 
     
@@ -25,29 +91,29 @@
     h1
     {
         text-align: center;
-        color: $white;
+        color: #fff;
         
     }
     h2, p
     {
         
-        color: $white;
+        color: #fff;
     }
     h6
     {
-        color: $white;
-        font-size: $nav-font;
-        font-weight: $hd-size;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 3rem;
         padding: 10px 0;
     }
     a
     {
         text-decoration: underline;
-        color: $white;
+        color: #fff;
     }
     .form-box
     {
-        background-color: $white;
+        background-color: #fff;
         padding: 5rem 5rem;
         
         margin: 0 auto;
@@ -90,8 +156,8 @@
 }
 .btn
 {
-    background-color: $secondary-color;
-    color: $white;
+    background-color: #0C3974;
+    color: #fff;
     
     float: left;
 }

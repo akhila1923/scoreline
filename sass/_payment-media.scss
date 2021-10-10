@@ -1,0 +1,179 @@
+@media only screen and (min-width: 1500px)
+{
+    .inner_main_menu
+    {
+        ul 
+        {
+            padding: 2rem 25rem !important;
+        }
+    }
+    
+}
+@media only screen and (min-width: 1180px)
+{
+    nav
+    {
+        display: none !important;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1180px)
+{
+    nav
+    {
+        display: none !important;
+    }
+    .container-contact {
+        max-width: 600px !important;
+    }
+    #main_menu {
+        
+        height: 110px !important;
+
+        .inner_main_menu
+        {
+             ul
+             {
+                padding: 2rem 6rem !important;
+
+                li 
+                {
+                    a 
+                    {
+                        padding: 1rem 2rem !important;
+                    }
+                }
+             }
+        }
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 992px)
+{
+    #main_menu
+    {
+        display: none !important;
+    }
+    .logo-a
+    {
+        width: 630px;
+        margin-left: 1rem;
+
+        .logo
+        {
+            width: 30%;
+        }
+    }
+    nav
+    {
+        button
+        {
+            margin-right: 1rem;
+            background-color: #6DB440 !important;
+        }
+    }
+    .navbar-toggler-icon
+    {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+    .form-box
+    {
+        width: 520px !important;
+    }
+    .contact
+    {
+        padding: 10rem 0 !important;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+    #main_menu
+    {
+        display: none !important;
+    }
+    .logo-a
+    {
+        width: 240px;
+        margin-left: 1rem;
+
+        .logo
+        {
+            width: 35% !important;
+        }
+    }
+    nav
+    {
+        button
+        {
+            margin-right: 1rem;
+            background-color: #6DB440 !important;
+        }
+    }
+    .navbar-toggler-icon
+    {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+    .contact
+    {
+        padding: 8rem 2rem !important;
+        text-align: center;
+    }
+    .form-box
+    {
+        width: 417px !important;
+        padding: 3rem 3rem !important;
+    }
+    .btn-div {
+        padding: 0 0 3rem !important;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    #main_menu
+    {
+        display: none !important;
+    }
+    .logo-a
+    {
+        width: 164px;
+        margin-left: 0;
+
+        .logo
+        {
+            width: 50% !important;
+        }
+    }
+    nav
+    {
+        button
+        {
+            margin-right: 0;
+            background-color: #6DB440 !important;
+        }
+    }
+    .navbar-toggler-icon
+    {
+        width: 1em !important;
+        height: 1em !important;
+    }
+    .contact
+    {
+        padding: 8rem 1rem !important;
+        text-align: center;
+
+        p
+        {
+            text-align: justify;
+        }
+    }
+    .form-box
+    {
+        width: 310px !important;
+        padding: 3rem 3rem !important;
+    }
+    .btn-div {
+        padding: 0 0 3rem !important;
+    }
+}
